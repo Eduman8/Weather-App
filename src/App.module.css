@@ -1,0 +1,43 @@
+.app {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fondo {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(12px);
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  margin: 5vh 5vw;
+  top: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60vh 30vh;
+}
+
+.citiesContainer {
+  display: flex;
+  height: 30vh;
+  background-color: #ffffff63;
+  backdrop-filter: blur(20px);
+  justify-content: space-between;
+
+}
+
+.app,
+.container {
+  background-image: url(./assets/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.citiesContainer {
+  display: flex;
+}
