@@ -15,19 +15,9 @@
   height: 90vh;
   margin: 5vh 5vw;
   top: 0;
-  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 60vh 30vh;
-}
-
-.citiesContainer {
-  display: flex;
-  height: 30vh;
-  background-color: #ffffff63;
-  backdrop-filter: blur(20px);
-  justify-content: space-between;
-
 }
 
 .app,
